@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "chrome": " npx cypress run --browser chrome",
+    "a":      " npx cypress run --broswer chrome --scripts ./e2e/a"
+  },
+  {
+    "dependencies": {
+      "cypress": "^13.3.3"
+    }
+  }
